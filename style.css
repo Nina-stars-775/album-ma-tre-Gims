@@ -1,0 +1,12 @@
+header{
+    nav {
+           ul {
+  list-style-type: none; /* Enlève les puces */
+  padding: 0;           /* Supprime la marge intérieure par défaut */
+  margin: 0;            /* Supprime la marge extérieure par défaut */
+  display: flex;        /* Aligne les éléments horizontalement */
+  gap: 100px;
+    }
+   } 
+
+}
