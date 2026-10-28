@@ -1,12 +1,47 @@
+body{
+    background-color: rgb(169, 211, 214);      /* Couleur de fond */
+}
 header{
+    
+    background-color: rgb(31, 33, 131);      /* Couleur de fond */
+    color: rgb(240, 242, 243);                        /* Couleur du texte */
+    height: 100px;
+    text-align: center;
+    padding: 20px;
     nav {
            ul {
   list-style-type: none; /* Enlève les puces */
   padding: 0;           /* Supprime la marge intérieure par défaut */
   margin: 0;            /* Supprime la marge extérieure par défaut */
   display: flex;        /* Aligne les éléments horizontalement */
-  gap: 100px;
+  gap: 250px;
     }
-   } 
+    a{
+        text-decoration: none; /* Enlève le soulignement */
+        color: rgb(240, 242, 243); /* Couleur du texte */
+    }
+    }
+   }
+}
+main{
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+section{
+ .album1, .album2, .album3{
+    width: 300px;
+    height: 300px;
+      display: flex;          /* Place les enfants côte à côte */
+  gap: 20px;              /* Espace optionnel entre les sections */
+    flex: 2;
+}
+
+}
+
+
 
 }
