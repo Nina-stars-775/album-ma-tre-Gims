@@ -55,6 +55,20 @@ h2{
     flex-direction: column;
     align-items: center;
 }
+.liste-1 li{
+    border-bottom-style: double;
+    padding: 17px;
+}
+.audio-1 li{
+    display: flex;
+    /* padding: 10px; */
+    text-decoration: none;
+}
+.audio{
+    display: flex;
+    flex-direction: row;
+
+}
 
 .globe{
     display: flex;
